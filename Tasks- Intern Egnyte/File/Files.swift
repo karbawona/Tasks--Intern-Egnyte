@@ -25,3 +25,12 @@ class Files {
         }
     }
 }
+
+/* this is more correct:
+    func getContent() -> String? {
+        if !self.content.contains("Forbidden") {
+           return self.content
+        } else {
+          return nil 
+        }
+*/
