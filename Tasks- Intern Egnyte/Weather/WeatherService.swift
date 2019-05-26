@@ -53,3 +53,10 @@ struct WeatherService {
     }
     
 }
+
+/*
+    init(){
+        fileWeather = Files()
+        fileWeather.downloadFile(nameURL: URL_WEATHER, handler: Files.printResult)
+    }
+*/
